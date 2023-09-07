@@ -1,0 +1,62 @@
+/* RESET */
+* {
+ 
+    padding: 0;
+    margin: 0;
+  }
+  /* COLORS and FONTS */
+  body {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;
+  }
+  h3 {
+    text-decoration: underline;
+    color: black;
+  }
+  header {
+    background: orangered;
+  }
+  main {
+    background: darkslateblue;
+  }
+  footer {
+    background: deeppink;
+  }
+  .left-sidebar {
+    background: dodgerblue;
+  }
+  .right-sidebar {
+    background: forestgreen;
+  }
+  .container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+ 
+  header,
+  footer {
+    width: 100%;
+  }
+  .left-sidebar {
+    order: 1;
+    flex: 1;
+    
+  }
+  main {
+    flex: 2;
+    order: 2;
+    
+  }
+  
+  
+  .right-sidebar {
+    flex: 1;
+    order: 3;
+  }
+  footer {
+    order: 4;
+  }
+  
